@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 15px;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  --color-primary: #165DFF;
+  --color-secondary: #36CFC9;
+  --color-accent: #FF7D00;
+  --color-text: #1D2129;
+  --color-text-secondary: #4E5969;
+  --color-text-tertiary: #86909C;
+  --color-background: #F2F3F5;
+  --color-card: #FFFFFF;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
